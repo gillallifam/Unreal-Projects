@@ -1,0 +1,340 @@
+Begin Object Class=UserDefinedStruct Name="HitDef"
+   Begin Object Class=UserDefinedStructEditorData Name="UserDefinedStructEditorData_0"
+   End Object
+   Begin Object Class=StrProperty Name="AttackPos_45_FFB40791428527FD1BFF7CBBAFCF3397"
+   End Object
+   Begin Object Class=StrProperty Name="AttackType_47_445153BD42174A35FDDACFAFE97C4387"
+   End Object
+   Begin Object Class=StrProperty Name="HitFlag_49_001E11434EE3C46E921BBBA32C9FEB10"
+   End Object
+   Begin Object Class=StrProperty Name="GuardFlag_51_A5528B024DA982E76885CD91F8A90728"
+   End Object
+   Begin Object Class=StrProperty Name="AnimType_53_3429651841370D834561E7AE1E0FB0F3"
+   End Object
+   Begin Object Class=StrProperty Name="AirAnimType_228_58E90FBB4B201C29EF1AAB8862E31523"
+   End Object
+   Begin Object Class=StrProperty Name="FallAnimType_229_8DCD6F69482D9BB8BB57BC923692EBFF"
+   End Object
+   Begin Object Class=FloatProperty Name="HitDamage_70_0C1B92124ECF8AF6F0F3ACB844A46DFB"
+   End Object
+   Begin Object Class=FloatProperty Name="GuardDamage_71_E8B138CB4721983E173DEAA6137DC357"
+   End Object
+   Begin Object Class=IntProperty Name="PauseTime_66_77DC14F84828484B1487E792CFCEC3D9"
+   End Object
+   Begin Object Class=IntProperty Name="PauseTimeE_67_C6A7389147CE82990B7BF38122B979FB"
+   End Object
+   Begin Object Class=IntProperty Name="GuardPauseTime_68_FBF65CB64D7327B3B4A781B208E10B89"
+   End Object
+   Begin Object Class=IntProperty Name="GuardPauseTimeE_69_52A112C74A4EB831B8E0519B2D77BDF2"
+   End Object
+   Begin Object Class=IntProperty Name="NumHits_184_C5741CC540B82353042A078781AB49E1"
+   End Object
+   Begin Object Class=StrProperty Name="GroundType_76_DA865E7048BF98923B5D90B31645D356"
+   End Object
+   Begin Object Class=StrProperty Name="AirType_79_EFBCC23147475FED873FE7B1F90AC74E"
+   End Object
+   Begin Object Class=IntProperty Name="GroundSlideTime_82_451CF832491553018E662091BCC1ABD8"
+   End Object
+   Begin Object Class=IntProperty Name="GuardSlideTime_85_24B66EED429E98BC38871C810AAC5996"
+   End Object
+   Begin Object Class=IntProperty Name="GroundHitTime_90_FAC2EC834C204B85489DD3AE8ED0B8A5"
+   End Object
+   Begin Object Class=IntProperty Name="GuardHitTime_91_A5E652084AB947940E2238A34A1851FC"
+   End Object
+   Begin Object Class=IntProperty Name="AirHitTime_94_5564CA09457A5D4ECFB420AB84A47E8E"
+   End Object
+   Begin Object Class=IntProperty Name="GuardCtrlTime_98_FC22F73148F5287F52E005A33ECF12D0"
+   End Object
+   Begin Object Class=FloatProperty Name="YAccel_101_EC5357734A09560FD54AC2A6EE290C7B"
+   End Object
+   Begin Object Class=FloatProperty Name="GroundYVelocity_104_E79447BB41FADC43D7E288B0106BD1C5"
+   End Object
+   Begin Object Class=FloatProperty Name="GroundXVelocity_107_C5BCDBBB49C4872A0DBE639475E30AF3"
+   End Object
+   Begin Object Class=FloatProperty Name="GuardVelocity_114_D220A3D143FD6275855D35BC08AB2811"
+   End Object
+   Begin Object Class=FloatProperty Name="AirYVelocity_115_362BF5D1470AB64AA615A4BB235405B5"
+   End Object
+   Begin Object Class=FloatProperty Name="AirXVelocity_116_2AE1DD3945851C40C82254880F70AC34"
+   End Object
+   Begin Object Class=FloatProperty Name="AirGuardYVelocity_119_F411ADD947D8E7C1096A1BB8DAEFE5EC"
+   End Object
+   Begin Object Class=FloatProperty Name="AirGuardXVelocity_122_6AB8BEA842BFD3C041FC678A1C913B4A"
+   End Object
+   Begin Object Class=FloatProperty Name="GroundCornerPushVeloff_125_76A6F9094D049F6B8ACE6AB1338F4FD4"
+   End Object
+   Begin Object Class=FloatProperty Name="AirCornerPushVeloff_128_4E767AA34E63E42632A771AEE875AD59"
+   End Object
+   Begin Object Class=FloatProperty Name="DownCornerPushVeloff_131_80955C484171A244BA9AD89DAB01A40D"
+   End Object
+   Begin Object Class=FloatProperty Name="GuardCornerPushVeloff_134_818221B54B73EC59F4D49AB0C078239F"
+   End Object
+   Begin Object Class=FloatProperty Name="AirGuardCornerPushVeloff_137_EA2C545249B13368E900BB90C6771536"
+   End Object
+   Begin Object Class=IntProperty Name="AirGuardCtrlTime_140_E83182C246710023F62F588E18AC27AA"
+   End Object
+   Begin Object Class=IntProperty Name="AirJuggle_143_9DFBF8274D48D01151E2B48CF5831EEE"
+   End Object
+   Begin Object Class=BoolProperty Name="Fall_145_35126DAE48D273729E6E4880B67B422C"
+   End Object
+   Begin Object Class=FloatProperty Name="FallXVelocity_152_76D37CDC4B01549C8E8C66963B1616EF"
+   End Object
+   Begin Object Class=FloatProperty Name="FallYVelocity_153_FEC810124CFF652A81C26E99FA0AE003"
+   End Object
+   Begin Object Class=BoolProperty Name="FallRecover_151_9CAC16EB4850FCCB31ACE983E26E6EA2"
+   End Object
+   Begin Object Class=IntProperty Name="FallRecoverTime_156_10848EFC431ACE56DEFCBD851CC5F52C"
+   End Object
+   Begin Object Class=FloatProperty Name="FallDamage_160_A74BED60455A758387981A951B6809EC"
+   End Object
+   Begin Object Class=BoolProperty Name="AirFall_162_B7BE2DB847C2140504FDD09A76053A64"
+   End Object
+   Begin Object Class=BoolProperty Name="ForceNoFall_164_AAB34C3A4ABC001935FAB79320C5C21D"
+   End Object
+   Begin Object Class=FloatProperty Name="DownYVelocity_170_8E57DCF243D2EDB07B241C84B2453031"
+   End Object
+   Begin Object Class=FloatProperty Name="DownXVelocity_173_8D6F15AF4819E05CF3F7A3964E0FD4BD"
+   End Object
+   Begin Object Class=IntProperty Name="DownHitTime_174_7D2AD1644FFD47A62D859FA5A3162B3B"
+   End Object
+   Begin Object Class=BoolProperty Name="DownBounce_175_85D420CA49D27B10134EB997F4B40A7F"
+   End Object
+   Begin Object Class=BoolProperty Name="Kill_179_10D7EEA142CE1873467C27BAD1DB4D16"
+   End Object
+   Begin Object Class=BoolProperty Name="GuardKill_180_E2A7BE534401EE7B03CF618D03BED47E"
+   End Object
+   Begin Object Class=BoolProperty Name="FallKill_181_64DBF46640EDE98C99842BAA24711051"
+   End Object
+   Begin Object Class=IntProperty Name="GetPower_190_0BDCA8054FF0D48F4D8D298ED4CAF0B4"
+   End Object
+   Begin Object Class=IntProperty Name="GetGuardPower_194_D627ADDA47590419E63725A6F7BDE5E9"
+   End Object
+   Begin Object Class=IntProperty Name="GivePower_195_E3CB31F34B4AB9E04623A6AAE1B00ECA"
+   End Object
+   Begin Object Class=IntProperty Name="GiveGuardPower_196_FB6DD3A247D0B1178386BA9EC682FF0C"
+   End Object
+   Begin Object Class=IntProperty Name="EnvShakeTime_208_68BDDAE14A0CEB3D480D3A90CD5FF977"
+   End Object
+   Begin Object Class=FloatProperty Name="EnvShakeFreq_209_8D9340084B4894CEA7CB588151D65E67"
+   End Object
+   Begin Object Class=IntProperty Name="EnvShakeAmpl_210_6FC85D554ED780DBCD5FB1985B6759AE"
+   End Object
+   Begin Object Class=FloatProperty Name="EnvShakePhase_211_41F1F4D44328EDC16D06BFAA2AA4A573"
+   End Object
+   Begin Object Class=IntProperty Name="FallEnvShakeTime_220_0E4E6E3D43029BFC248440AF55AE8017"
+   End Object
+   Begin Object Class=FloatProperty Name="FallEnvShakeFreq_221_9AB2D4BE4D2A8A536B0D4C8DF8F2C998"
+   End Object
+   Begin Object Class=IntProperty Name="FallEnvShakeAmpl_222_09BF2A8741282D4E4B103FB79EF340CB"
+   End Object
+   Begin Object Class=FloatProperty Name="FallEnvShakePhase_223_0BB015FB4CAA981A47A56FBD0B85A684"
+   End Object
+   Begin Object Class=StrProperty Name="HitType_233_C8EFB1A74CE44DC7179D24B56E4505CC"
+   End Object
+   Begin Object Class=IntProperty Name="HitPriority_235_F4C38E5540D5E830DBDE239AD78308BB"
+   End Object
+   Begin Object Name="UserDefinedStructEditorData_0"
+      UniqueNameId=236
+      VariablesDescriptions(0)=(VarName="AttackPos_45_FFB40791428527FD1BFF7CBBAFCF3397",VarGuid=FFB40791428527FD1BFF7CBBAFCF3397,FriendlyName="AttackPos",DefaultValue="S",Category="string",CurrentDefaultValue="S",ToolTip="This says whether the attack is a standing, crouching, or aerial attack.")
+      VariablesDescriptions(1)=(VarName="AttackType_47_445153BD42174A35FDDACFAFE97C4387",VarGuid=445153BD42174A35FDDACFAFE97C4387,FriendlyName="AttackType",DefaultValue="NA",Category="string",CurrentDefaultValue="NA",ToolTip="The first character is either \"N\" for \"normal\", \"S\" for \"special\", or \"H\" for \"hyper\" (or \"super\", as it is commonly known). The second character must be either \"A\" for \"attack\" (a normal hit attack), \"T\" for \"throw\", or \"P\" for projectile.")
+      VariablesDescriptions(2)=(VarName="HitFlag_49_001E11434EE3C46E921BBBA32C9FEB10",VarGuid=001E11434EE3C46E921BBBA32C9FEB10,FriendlyName="HitFlag",DefaultValue="MAF",Category="string",CurrentDefaultValue="MAF",ToolTip="This determines what type of state P2 must be in for P1 to hit.")
+      VariablesDescriptions(3)=(VarName="GuardFlag_51_A5528B024DA982E76885CD91F8A90728",VarGuid=A5528B024DA982E76885CD91F8A90728,FriendlyName="GuardFlag",DefaultValue="MA",Category="string",CurrentDefaultValue="MA",ToolTip="This determines how P2 may guard the attack")
+      VariablesDescriptions(4)=(VarName="AnimType_53_3429651841370D834561E7AE1E0FB0F3",VarGuid=3429651841370D834561E7AE1E0FB0F3,FriendlyName="AnimType",DefaultValue="light",Category="string",CurrentDefaultValue="light")
+      VariablesDescriptions(5)=(VarName="AirAnimType_228_58E90FBB4B201C29EF1AAB8862E31523",VarGuid=58E90FBB4B201C29EF1AAB8862E31523,FriendlyName="AirAnimType",DefaultValue="light",Category="string",CurrentDefaultValue="light")
+      VariablesDescriptions(6)=(VarName="FallAnimType_229_8DCD6F69482D9BB8BB57BC923692EBFF",VarGuid=8DCD6F69482D9BB8BB57BC923692EBFF,FriendlyName="FallAnimType",Category="string")
+      VariablesDescriptions(7)=(VarName="HitDamage_70_0C1B92124ECF8AF6F0F3ACB844A46DFB",VarGuid=0C1B92124ECF8AF6F0F3ACB844A46DFB,FriendlyName="HitDamage",Category="float")
+      VariablesDescriptions(8)=(VarName="GuardDamage_71_E8B138CB4721983E173DEAA6137DC357",VarGuid=E8B138CB4721983E173DEAA6137DC357,FriendlyName="GuardDamage",Category="float")
+      VariablesDescriptions(9)=(VarName="PauseTime_66_77DC14F84828484B1487E792CFCEC3D9",VarGuid=77DC14F84828484B1487E792CFCEC3D9,FriendlyName="PauseTime",DefaultValue="0",Category="int",CurrentDefaultValue="0")
+      VariablesDescriptions(10)=(VarName="PauseTimeE_67_C6A7389147CE82990B7BF38122B979FB",VarGuid=C6A7389147CE82990B7BF38122B979FB,FriendlyName="PauseTimeE",DefaultValue="0",Category="int",CurrentDefaultValue="0")
+      VariablesDescriptions(11)=(VarName="GuardPauseTime_68_FBF65CB64D7327B3B4A781B208E10B89",VarGuid=FBF65CB64D7327B3B4A781B208E10B89,FriendlyName="GuardPauseTime",Category="int")
+      VariablesDescriptions(12)=(VarName="GuardPauseTimeE_69_52A112C74A4EB831B8E0519B2D77BDF2",VarGuid=52A112C74A4EB831B8E0519B2D77BDF2,FriendlyName="GuardPauseTimeE",DefaultValue="0",Category="int",CurrentDefaultValue="0")
+      VariablesDescriptions(13)=(VarName="NumHits_184_C5741CC540B82353042A078781AB49E1",VarGuid=C5741CC540B82353042A078781AB49E1,FriendlyName="NumHits",Category="int")
+      VariablesDescriptions(14)=(VarName="GroundType_76_DA865E7048BF98923B5D90B31645D356",VarGuid=DA865E7048BF98923B5D90B31645D356,FriendlyName="GroundType",DefaultValue="high",Category="string",CurrentDefaultValue="high")
+      VariablesDescriptions(15)=(VarName="AirType_79_EFBCC23147475FED873FE7B1F90AC74E",VarGuid=EFBCC23147475FED873FE7B1F90AC74E,FriendlyName="AirType",DefaultValue="high",Category="string",CurrentDefaultValue="high")
+      VariablesDescriptions(16)=(VarName="GroundSlideTime_82_451CF832491553018E662091BCC1ABD8",VarGuid=451CF832491553018E662091BCC1ABD8,FriendlyName="GroundSlideTime",Category="int")
+      VariablesDescriptions(17)=(VarName="GuardSlideTime_85_24B66EED429E98BC38871C810AAC5996",VarGuid=24B66EED429E98BC38871C810AAC5996,FriendlyName="GuardSlideTime",DefaultValue="0",Category="int",CurrentDefaultValue="0")
+      VariablesDescriptions(18)=(VarName="GroundHitTime_90_FAC2EC834C204B85489DD3AE8ED0B8A5",VarGuid=FAC2EC834C204B85489DD3AE8ED0B8A5,FriendlyName="GroundHitTime",Category="int")
+      VariablesDescriptions(19)=(VarName="GuardHitTime_91_A5E652084AB947940E2238A34A1851FC",VarGuid=A5E652084AB947940E2238A34A1851FC,FriendlyName="GuardHitTime",Category="int")
+      VariablesDescriptions(20)=(VarName="AirHitTime_94_5564CA09457A5D4ECFB420AB84A47E8E",VarGuid=5564CA09457A5D4ECFB420AB84A47E8E,FriendlyName="AirHitTime",Category="int")
+      VariablesDescriptions(21)=(VarName="GuardCtrlTime_98_FC22F73148F5287F52E005A33ECF12D0",VarGuid=FC22F73148F5287F52E005A33ECF12D0,FriendlyName="GuardCtrlTime",Category="int")
+      VariablesDescriptions(22)=(VarName="YAccel_101_EC5357734A09560FD54AC2A6EE290C7B",VarGuid=EC5357734A09560FD54AC2A6EE290C7B,FriendlyName="YAccel",Category="float")
+      VariablesDescriptions(23)=(VarName="GroundYVelocity_104_E79447BB41FADC43D7E288B0106BD1C5",VarGuid=E79447BB41FADC43D7E288B0106BD1C5,FriendlyName="GroundYVelocity",Category="float")
+      VariablesDescriptions(24)=(VarName="GroundXVelocity_107_C5BCDBBB49C4872A0DBE639475E30AF3",VarGuid=C5BCDBBB49C4872A0DBE639475E30AF3,FriendlyName="GroundXVelocity",Category="float")
+      VariablesDescriptions(25)=(VarName="GuardVelocity_114_D220A3D143FD6275855D35BC08AB2811",VarGuid=D220A3D143FD6275855D35BC08AB2811,FriendlyName="GuardVelocity",Category="float")
+      VariablesDescriptions(26)=(VarName="AirYVelocity_115_362BF5D1470AB64AA615A4BB235405B5",VarGuid=362BF5D1470AB64AA615A4BB235405B5,FriendlyName="AirYVelocity",Category="float")
+      VariablesDescriptions(27)=(VarName="AirXVelocity_116_2AE1DD3945851C40C82254880F70AC34",VarGuid=2AE1DD3945851C40C82254880F70AC34,FriendlyName="AirXVelocity",Category="float")
+      VariablesDescriptions(28)=(VarName="AirGuardYVelocity_119_F411ADD947D8E7C1096A1BB8DAEFE5EC",VarGuid=F411ADD947D8E7C1096A1BB8DAEFE5EC,FriendlyName="AirGuardYVelocity",Category="float")
+      VariablesDescriptions(29)=(VarName="AirGuardXVelocity_122_6AB8BEA842BFD3C041FC678A1C913B4A",VarGuid=6AB8BEA842BFD3C041FC678A1C913B4A,FriendlyName="AirGuardXVelocity",Category="float")
+      VariablesDescriptions(30)=(VarName="GroundCornerPushVeloff_125_76A6F9094D049F6B8ACE6AB1338F4FD4",VarGuid=76A6F9094D049F6B8ACE6AB1338F4FD4,FriendlyName="GroundCornerPushVeloff",Category="float")
+      VariablesDescriptions(31)=(VarName="AirCornerPushVeloff_128_4E767AA34E63E42632A771AEE875AD59",VarGuid=4E767AA34E63E42632A771AEE875AD59,FriendlyName="AirCornerPushVeloff",Category="float")
+      VariablesDescriptions(32)=(VarName="DownCornerPushVeloff_131_80955C484171A244BA9AD89DAB01A40D",VarGuid=80955C484171A244BA9AD89DAB01A40D,FriendlyName="DownCornerPushVeloff",Category="float")
+      VariablesDescriptions(33)=(VarName="GuardCornerPushVeloff_134_818221B54B73EC59F4D49AB0C078239F",VarGuid=818221B54B73EC59F4D49AB0C078239F,FriendlyName="GuardCornerPushVeloff",Category="float")
+      VariablesDescriptions(34)=(VarName="AirGuardCornerPushVeloff_137_EA2C545249B13368E900BB90C6771536",VarGuid=EA2C545249B13368E900BB90C6771536,FriendlyName="AirGuardCornerPushVeloff",Category="float")
+      VariablesDescriptions(35)=(VarName="AirGuardCtrlTime_140_E83182C246710023F62F588E18AC27AA",VarGuid=E83182C246710023F62F588E18AC27AA,FriendlyName="AirGuardCtrlTime",Category="int")
+      VariablesDescriptions(36)=(VarName="AirJuggle_143_9DFBF8274D48D01151E2B48CF5831EEE",VarGuid=9DFBF8274D48D01151E2B48CF5831EEE,FriendlyName="AirJuggle",Category="int")
+      VariablesDescriptions(37)=(VarName="Fall_145_35126DAE48D273729E6E4880B67B422C",VarGuid=35126DAE48D273729E6E4880B67B422C,FriendlyName="Fall",Category="bool")
+      VariablesDescriptions(38)=(VarName="FallXVelocity_152_76D37CDC4B01549C8E8C66963B1616EF",VarGuid=76D37CDC4B01549C8E8C66963B1616EF,FriendlyName="FallXVelocity",Category="float")
+      VariablesDescriptions(39)=(VarName="FallYVelocity_153_FEC810124CFF652A81C26E99FA0AE003",VarGuid=FEC810124CFF652A81C26E99FA0AE003,FriendlyName="FallYVelocity",Category="float")
+      VariablesDescriptions(40)=(VarName="FallRecover_151_9CAC16EB4850FCCB31ACE983E26E6EA2",VarGuid=9CAC16EB4850FCCB31ACE983E26E6EA2,FriendlyName="FallRecover",Category="bool")
+      VariablesDescriptions(41)=(VarName="FallRecoverTime_156_10848EFC431ACE56DEFCBD851CC5F52C",VarGuid=10848EFC431ACE56DEFCBD851CC5F52C,FriendlyName="FallRecoverTime",Category="int")
+      VariablesDescriptions(42)=(VarName="FallDamage_160_A74BED60455A758387981A951B6809EC",VarGuid=A74BED60455A758387981A951B6809EC,FriendlyName="FallDamage",Category="float")
+      VariablesDescriptions(43)=(VarName="AirFall_162_B7BE2DB847C2140504FDD09A76053A64",VarGuid=B7BE2DB847C2140504FDD09A76053A64,FriendlyName="AirFall",Category="bool")
+      VariablesDescriptions(44)=(VarName="ForceNoFall_164_AAB34C3A4ABC001935FAB79320C5C21D",VarGuid=AAB34C3A4ABC001935FAB79320C5C21D,FriendlyName="ForceNoFall",Category="bool")
+      VariablesDescriptions(45)=(VarName="DownYVelocity_170_8E57DCF243D2EDB07B241C84B2453031",VarGuid=8E57DCF243D2EDB07B241C84B2453031,FriendlyName="DownYVelocity",Category="float")
+      VariablesDescriptions(46)=(VarName="DownXVelocity_173_8D6F15AF4819E05CF3F7A3964E0FD4BD",VarGuid=8D6F15AF4819E05CF3F7A3964E0FD4BD,FriendlyName="DownXVelocity",Category="float")
+      VariablesDescriptions(47)=(VarName="DownHitTime_174_7D2AD1644FFD47A62D859FA5A3162B3B",VarGuid=7D2AD1644FFD47A62D859FA5A3162B3B,FriendlyName="DownHitTime",Category="int")
+      VariablesDescriptions(48)=(VarName="DownBounce_175_85D420CA49D27B10134EB997F4B40A7F",VarGuid=85D420CA49D27B10134EB997F4B40A7F,FriendlyName="DownBounce",Category="bool")
+      VariablesDescriptions(49)=(VarName="Kill_179_10D7EEA142CE1873467C27BAD1DB4D16",VarGuid=10D7EEA142CE1873467C27BAD1DB4D16,FriendlyName="Kill",DefaultValue="True",Category="bool",CurrentDefaultValue="True")
+      VariablesDescriptions(50)=(VarName="GuardKill_180_E2A7BE534401EE7B03CF618D03BED47E",VarGuid=E2A7BE534401EE7B03CF618D03BED47E,FriendlyName="GuardKill",DefaultValue="True",Category="bool",CurrentDefaultValue="True")
+      VariablesDescriptions(51)=(VarName="FallKill_181_64DBF46640EDE98C99842BAA24711051",VarGuid=64DBF46640EDE98C99842BAA24711051,FriendlyName="FallKill",DefaultValue="True",Category="bool",CurrentDefaultValue="True")
+      VariablesDescriptions(52)=(VarName="GetPower_190_0BDCA8054FF0D48F4D8D298ED4CAF0B4",VarGuid=0BDCA8054FF0D48F4D8D298ED4CAF0B4,FriendlyName="GetPower",Category="int")
+      VariablesDescriptions(53)=(VarName="GetGuardPower_194_D627ADDA47590419E63725A6F7BDE5E9",VarGuid=D627ADDA47590419E63725A6F7BDE5E9,FriendlyName="GetGuardPower",Category="int")
+      VariablesDescriptions(54)=(VarName="GivePower_195_E3CB31F34B4AB9E04623A6AAE1B00ECA",VarGuid=E3CB31F34B4AB9E04623A6AAE1B00ECA,FriendlyName="GivePower",Category="int")
+      VariablesDescriptions(55)=(VarName="GiveGuardPower_196_FB6DD3A247D0B1178386BA9EC682FF0C",VarGuid=FB6DD3A247D0B1178386BA9EC682FF0C,FriendlyName="GiveGuardPower",Category="int")
+      VariablesDescriptions(56)=(VarName="EnvShakeTime_208_68BDDAE14A0CEB3D480D3A90CD5FF977",VarGuid=68BDDAE14A0CEB3D480D3A90CD5FF977,FriendlyName="EnvShakeTime",Category="int")
+      VariablesDescriptions(57)=(VarName="EnvShakeFreq_209_8D9340084B4894CEA7CB588151D65E67",VarGuid=8D9340084B4894CEA7CB588151D65E67,FriendlyName="EnvShakeFreq",Category="float")
+      VariablesDescriptions(58)=(VarName="EnvShakeAmpl_210_6FC85D554ED780DBCD5FB1985B6759AE",VarGuid=6FC85D554ED780DBCD5FB1985B6759AE,FriendlyName="EnvShakeAmpl",Category="int")
+      VariablesDescriptions(59)=(VarName="EnvShakePhase_211_41F1F4D44328EDC16D06BFAA2AA4A573",VarGuid=41F1F4D44328EDC16D06BFAA2AA4A573,FriendlyName="EnvShakePhase",Category="float")
+      VariablesDescriptions(60)=(VarName="FallEnvShakeTime_220_0E4E6E3D43029BFC248440AF55AE8017",VarGuid=0E4E6E3D43029BFC248440AF55AE8017,FriendlyName="FallEnvShakeTime",Category="int")
+      VariablesDescriptions(61)=(VarName="FallEnvShakeFreq_221_9AB2D4BE4D2A8A536B0D4C8DF8F2C998",VarGuid=9AB2D4BE4D2A8A536B0D4C8DF8F2C998,FriendlyName="FallEnvShakeFreq",Category="float")
+      VariablesDescriptions(62)=(VarName="FallEnvShakeAmpl_222_09BF2A8741282D4E4B103FB79EF340CB",VarGuid=09BF2A8741282D4E4B103FB79EF340CB,FriendlyName="FallEnvShakeAmpl",Category="int")
+      VariablesDescriptions(63)=(VarName="FallEnvShakePhase_223_0BB015FB4CAA981A47A56FBD0B85A684",VarGuid=0BB015FB4CAA981A47A56FBD0B85A684,FriendlyName="FallEnvShakePhase",Category="float")
+      VariablesDescriptions(64)=(VarName="HitType_233_C8EFB1A74CE44DC7179D24B56E4505CC",VarGuid=C8EFB1A74CE44DC7179D24B56E4505CC,FriendlyName="HitType",Category="string")
+      VariablesDescriptions(65)=(VarName="HitPriority_235_F4C38E5540D5E830DBDE239AD78308BB",VarGuid=F4C38E5540D5E830DBDE239AD78308BB,FriendlyName="HitPriority",Category="int")
+      ToolTip="Define hits"
+   End Object
+   Begin Object Name="AttackPos_45_FFB40791428527FD1BFF7CBBAFCF3397"
+   End Object
+   Begin Object Name="AttackType_47_445153BD42174A35FDDACFAFE97C4387"
+   End Object
+   Begin Object Name="HitFlag_49_001E11434EE3C46E921BBBA32C9FEB10"
+   End Object
+   Begin Object Name="GuardFlag_51_A5528B024DA982E76885CD91F8A90728"
+   End Object
+   Begin Object Name="AnimType_53_3429651841370D834561E7AE1E0FB0F3"
+   End Object
+   Begin Object Name="AirAnimType_228_58E90FBB4B201C29EF1AAB8862E31523"
+   End Object
+   Begin Object Name="FallAnimType_229_8DCD6F69482D9BB8BB57BC923692EBFF"
+   End Object
+   Begin Object Name="HitDamage_70_0C1B92124ECF8AF6F0F3ACB844A46DFB"
+   End Object
+   Begin Object Name="GuardDamage_71_E8B138CB4721983E173DEAA6137DC357"
+   End Object
+   Begin Object Name="PauseTime_66_77DC14F84828484B1487E792CFCEC3D9"
+   End Object
+   Begin Object Name="PauseTimeE_67_C6A7389147CE82990B7BF38122B979FB"
+   End Object
+   Begin Object Name="GuardPauseTime_68_FBF65CB64D7327B3B4A781B208E10B89"
+   End Object
+   Begin Object Name="GuardPauseTimeE_69_52A112C74A4EB831B8E0519B2D77BDF2"
+   End Object
+   Begin Object Name="NumHits_184_C5741CC540B82353042A078781AB49E1"
+   End Object
+   Begin Object Name="GroundType_76_DA865E7048BF98923B5D90B31645D356"
+   End Object
+   Begin Object Name="AirType_79_EFBCC23147475FED873FE7B1F90AC74E"
+   End Object
+   Begin Object Name="GroundSlideTime_82_451CF832491553018E662091BCC1ABD8"
+   End Object
+   Begin Object Name="GuardSlideTime_85_24B66EED429E98BC38871C810AAC5996"
+   End Object
+   Begin Object Name="GroundHitTime_90_FAC2EC834C204B85489DD3AE8ED0B8A5"
+   End Object
+   Begin Object Name="GuardHitTime_91_A5E652084AB947940E2238A34A1851FC"
+   End Object
+   Begin Object Name="AirHitTime_94_5564CA09457A5D4ECFB420AB84A47E8E"
+   End Object
+   Begin Object Name="GuardCtrlTime_98_FC22F73148F5287F52E005A33ECF12D0"
+   End Object
+   Begin Object Name="YAccel_101_EC5357734A09560FD54AC2A6EE290C7B"
+   End Object
+   Begin Object Name="GroundYVelocity_104_E79447BB41FADC43D7E288B0106BD1C5"
+   End Object
+   Begin Object Name="GroundXVelocity_107_C5BCDBBB49C4872A0DBE639475E30AF3"
+   End Object
+   Begin Object Name="GuardVelocity_114_D220A3D143FD6275855D35BC08AB2811"
+   End Object
+   Begin Object Name="AirYVelocity_115_362BF5D1470AB64AA615A4BB235405B5"
+   End Object
+   Begin Object Name="AirXVelocity_116_2AE1DD3945851C40C82254880F70AC34"
+   End Object
+   Begin Object Name="AirGuardYVelocity_119_F411ADD947D8E7C1096A1BB8DAEFE5EC"
+   End Object
+   Begin Object Name="AirGuardXVelocity_122_6AB8BEA842BFD3C041FC678A1C913B4A"
+   End Object
+   Begin Object Name="GroundCornerPushVeloff_125_76A6F9094D049F6B8ACE6AB1338F4FD4"
+   End Object
+   Begin Object Name="AirCornerPushVeloff_128_4E767AA34E63E42632A771AEE875AD59"
+   End Object
+   Begin Object Name="DownCornerPushVeloff_131_80955C484171A244BA9AD89DAB01A40D"
+   End Object
+   Begin Object Name="GuardCornerPushVeloff_134_818221B54B73EC59F4D49AB0C078239F"
+   End Object
+   Begin Object Name="AirGuardCornerPushVeloff_137_EA2C545249B13368E900BB90C6771536"
+   End Object
+   Begin Object Name="AirGuardCtrlTime_140_E83182C246710023F62F588E18AC27AA"
+   End Object
+   Begin Object Name="AirJuggle_143_9DFBF8274D48D01151E2B48CF5831EEE"
+   End Object
+   Begin Object Name="Fall_145_35126DAE48D273729E6E4880B67B422C"
+   End Object
+   Begin Object Name="FallXVelocity_152_76D37CDC4B01549C8E8C66963B1616EF"
+   End Object
+   Begin Object Name="FallYVelocity_153_FEC810124CFF652A81C26E99FA0AE003"
+   End Object
+   Begin Object Name="FallRecover_151_9CAC16EB4850FCCB31ACE983E26E6EA2"
+   End Object
+   Begin Object Name="FallRecoverTime_156_10848EFC431ACE56DEFCBD851CC5F52C"
+   End Object
+   Begin Object Name="FallDamage_160_A74BED60455A758387981A951B6809EC"
+   End Object
+   Begin Object Name="AirFall_162_B7BE2DB847C2140504FDD09A76053A64"
+   End Object
+   Begin Object Name="ForceNoFall_164_AAB34C3A4ABC001935FAB79320C5C21D"
+   End Object
+   Begin Object Name="DownYVelocity_170_8E57DCF243D2EDB07B241C84B2453031"
+   End Object
+   Begin Object Name="DownXVelocity_173_8D6F15AF4819E05CF3F7A3964E0FD4BD"
+   End Object
+   Begin Object Name="DownHitTime_174_7D2AD1644FFD47A62D859FA5A3162B3B"
+   End Object
+   Begin Object Name="DownBounce_175_85D420CA49D27B10134EB997F4B40A7F"
+   End Object
+   Begin Object Name="Kill_179_10D7EEA142CE1873467C27BAD1DB4D16"
+   End Object
+   Begin Object Name="GuardKill_180_E2A7BE534401EE7B03CF618D03BED47E"
+   End Object
+   Begin Object Name="FallKill_181_64DBF46640EDE98C99842BAA24711051"
+   End Object
+   Begin Object Name="GetPower_190_0BDCA8054FF0D48F4D8D298ED4CAF0B4"
+   End Object
+   Begin Object Name="GetGuardPower_194_D627ADDA47590419E63725A6F7BDE5E9"
+   End Object
+   Begin Object Name="GivePower_195_E3CB31F34B4AB9E04623A6AAE1B00ECA"
+   End Object
+   Begin Object Name="GiveGuardPower_196_FB6DD3A247D0B1178386BA9EC682FF0C"
+   End Object
+   Begin Object Name="EnvShakeTime_208_68BDDAE14A0CEB3D480D3A90CD5FF977"
+   End Object
+   Begin Object Name="EnvShakeFreq_209_8D9340084B4894CEA7CB588151D65E67"
+   End Object
+   Begin Object Name="EnvShakeAmpl_210_6FC85D554ED780DBCD5FB1985B6759AE"
+   End Object
+   Begin Object Name="EnvShakePhase_211_41F1F4D44328EDC16D06BFAA2AA4A573"
+   End Object
+   Begin Object Name="FallEnvShakeTime_220_0E4E6E3D43029BFC248440AF55AE8017"
+   End Object
+   Begin Object Name="FallEnvShakeFreq_221_9AB2D4BE4D2A8A536B0D4C8DF8F2C998"
+   End Object
+   Begin Object Name="FallEnvShakeAmpl_222_09BF2A8741282D4E4B103FB79EF340CB"
+   End Object
+   Begin Object Name="FallEnvShakePhase_223_0BB015FB4CAA981A47A56FBD0B85A684"
+   End Object
+   Begin Object Name="HitType_233_C8EFB1A74CE44DC7179D24B56E4505CC"
+   End Object
+   Begin Object Name="HitPriority_235_F4C38E5540D5E830DBDE239AD78308BB"
+   End Object
+   EditorData=UserDefinedStructEditorData'UserDefinedStructEditorData_0'
+   Guid=FAB1393248AE139D750531A7062E9F90
+End Object
